@@ -1,0 +1,38 @@
+{
+  "name": "oq-swizzle-array",
+  "version": "1.0.0",
+  "description": "swizzle a nested array or array-like object to a clean array.把嵌套的数组或类数组对象转换成非嵌套的纯数组。 ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenQuest/oq-swizzle-array.git"
+  },
+  "keywords": [
+    "swizzle",
+    "swizzling",
+    "mixed",
+    "nested",
+    "array",
+    "array-like",
+    "OpenQuest"
+  ],
+  "author": "lingshanjun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OpenQuest/oq-swizzle-array/issues"
+  },
+  "homepage": "https://github.com/OpenQuest/oq-swizzle-array#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-strip-comments": "^2.4.3",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "oq-is-arrayish": "^1.0.1"
+  }
+}
